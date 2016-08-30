@@ -1,4 +1,5 @@
 FROM ruby:2.3
+MAINTAINER Hleb Rubanau <g.rubanau@gmail.com>
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
